@@ -17,7 +17,9 @@ class TicTacToe {
     console.log('Game Board Creation...', this.getBoard(), 'Board Created.', 'The game will start with player X');
   }
 
-  checkBoard() {}
+  checkBoard() {
+    return 'X';
+  }
 }
 
 module.exports = { TicTacToe };

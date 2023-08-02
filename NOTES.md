@@ -56,6 +56,21 @@
     - ⚠ if there is no winner, return false
   - ⚠ play() should loop through players until checkBoard() function returns winner
 
+  # Pomodoro 4: Mehdi Merali - 3:27 - 3:57
+
+- 🚧 TIC3: Player can win with vertical line
+
+  - 🚧 Create function to check if board has vertical line winner
+
+    - ✅ define function checkBoard() in TicTacToe class
+    - 🚧 check if each vertical line in checkBoard() has same player symbol and return the player.
+
+      - 🚧 check for player X and player O as vertical winnners
+
+    - ⚠ if there is no winner, return false
+
+  - ⚠ play() should loop through players until checkBoard() function returns winner
+
 - ⚠ TODO
 - 🚧 IN PROGRESS
 - ✅ DONE

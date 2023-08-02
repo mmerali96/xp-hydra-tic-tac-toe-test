@@ -49,4 +49,11 @@ describe('tic tac toe tests', () => {
     console.log(tictactoe.board);
     expect(tictactoe.checkBoard()).toBe('X');
   });
+  it('should return player O if it has a 3 marks in a row for each column', () => {
+    tictactoe.board[0][0] = 'O';
+    tictactoe.board[1][0] = 'O';
+    tictactoe.board[2][0] = 'O';
+    console.log(tictactoe.board);
+    expect(tictactoe.checkBoard()).toBe('O');
+  });
 });
