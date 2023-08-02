@@ -22,4 +22,14 @@ Board Created.`);
     var tictactoe = new TicTacToe();
     expect(tictactoe.board).toStrictEqual([[], [], []]);
   });
+  it('should return the 2d array as a string to represent the gameboard', () => {
+    var tictactoe = new TicTacToe();
+    expect(tictactoe.getBoard()).toBe(`
+ | |
+-+-+-
+ | |
+-+-+-
+ | |
+`);
+  });
 });

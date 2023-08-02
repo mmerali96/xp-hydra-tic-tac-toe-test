@@ -22,6 +22,6 @@
 - 🚧 DEBT4: Refactor to use OOP
   - ✅ create class
   - ✅ init class with empty 2d array with 3 columns, [[],[],[]]
-  - ⚠ create print function that converts array into string with empty gameboard
+  - ✅ create print function that converts empty array into string with empty gameboard
   - ⚠ create play function that starts the game execution
 - ⚠ DEBT2: Create gameboard function to build the gameboard dynamically

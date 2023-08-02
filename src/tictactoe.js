@@ -11,6 +11,15 @@ Board Created.`;
 
 class TicTacToe {
   board = [[], [], []];
+  getBoard() {
+    return `
+ | |
+-+-+-
+ | |
+-+-+-
+ | |
+`;
+  }
 }
 
 module.exports = { tictactoe, TicTacToe };
