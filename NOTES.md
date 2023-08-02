@@ -15,3 +15,4 @@
 - ✅ Create tictactoe function
 - ✅ DEBT1: Remove boilerplace code
 - 🚧 TIC1: User can see a gameboard that is 3x3 and is empty when the game first starts
+  - ⚠ Build empty gameboard string
