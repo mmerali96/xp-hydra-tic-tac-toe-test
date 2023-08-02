@@ -1,14 +1,3 @@
-function tictactoe() {
-  return `
-Game Board Creation...
- | |
--+-+-
- | |
--+-+-
- | |
-Board Created.`;
-}
-
 class TicTacToe {
   board = [[], [], []];
   getBoard() {
@@ -22,4 +11,4 @@ class TicTacToe {
   }
 }
 
-module.exports = { tictactoe, TicTacToe };
+module.exports = { TicTacToe };
