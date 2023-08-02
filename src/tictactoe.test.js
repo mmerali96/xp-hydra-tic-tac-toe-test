@@ -22,4 +22,13 @@ describe('tic tac toe tests', () => {
     var tictactoe = new TicTacToe();
     tictactoe.play();
   });
+  it('play() should print out messages and empty game board', () => {
+    const testLog = jest.spyOn(global.console, 'log');
+    var tictactoe = new TicTacToe();
+    tictactoe.play();
+
+    expect(testLog).toHaveBeenCalled();
+
+    testLog.mockRestore();
+  });
 });
