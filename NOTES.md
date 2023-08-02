@@ -10,6 +10,6 @@
 
 # Pomodoro 1
 
-- 🚧 Create User Stories
-- ⚠ Setup boilerplate jest test case
+- ✅ Create User Stories
+- 🚧 Setup boilerplate jest test case
 - ⚠ Create tictactoe function
