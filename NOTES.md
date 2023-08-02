@@ -13,4 +13,4 @@
 - ✅ Create User Stories
 - ✅ Setup boilerplate jest test case
 - ✅ Create tictactoe function
-- ⚠ DEBT1: Remove boilerplace code
+- ✅ DEBT1: Remove boilerplace code
