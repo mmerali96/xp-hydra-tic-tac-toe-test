@@ -68,9 +68,8 @@
       - ✅ check for player X
       - ✅ check player O
 
-    -
-    - 🚧 check for vertical winner in middle column
-    - ⚠ check for vertical winnner in last column
+    - ✅ heck for vertical winner in middle column
+    - 🚧 check for vertical winnner in last column
     - ⚠ if there is no winner, return false
 
 - ✅ DEBT6: refactor checkWinners test to be in describe block and have cleanup that reinitializes board to empty state before each test.

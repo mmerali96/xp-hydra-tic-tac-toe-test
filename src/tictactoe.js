@@ -27,6 +27,16 @@ class TicTacToe {
     ) {
       return this.board[0][0];
     }
+    if (
+      this.board[0][1] != '' &&
+      this.board[1][1] != '' &&
+      this.board[2][1] != '' &&
+      this.board[0][1] === this.board[1][1] &&
+      this.board[1][1] === this.board[2][1]
+    ) {
+      return this.board[0][1];
+    }
+
     return 'X';
   }
 }
