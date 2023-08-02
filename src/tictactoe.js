@@ -1,5 +1,9 @@
 class TicTacToe {
-  board = [[], [], []];
+  board = [
+    ['', '', ''],
+    ['', '', ''],
+    ['', '', ''],
+  ];
   getBoard() {
     return `
  | |

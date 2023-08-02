@@ -17,8 +17,12 @@ describe('tic tac toe tests', () => {
   it('should create an object for the tictactoe game', () => {
     expect(tictactoe).not.toBe(null);
   });
-  it('should have an empty 2d array to represent the gameboard', () => {
-    expect(tictactoe.board).toStrictEqual([[], [], []]);
+  it('should have an empty 2d array with 3 empty strings in each row to represent the gameboard', () => {
+    expect(tictactoe.board).toStrictEqual([
+      ['', '', ''],
+      ['', '', ''],
+      ['', '', ''],
+    ]);
   });
   it('should return the 2d array as a string to represent the gameboard', () => {
     expect(tictactoe.getBoard()).toBe(EMPTY_GAME_BOARD);
