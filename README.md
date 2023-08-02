@@ -13,4 +13,18 @@ The system should run in BOT mode (random BOT moves for player X & O) to print o
 ## Backlog
 
 ⚠ TIC1: User can see a gameboard that is 3x3 and is empty when the game first starts
+
+- Acceptance test:
+
+```
+Game Board Creation...
+ | |
+-+-+-
+ | |
+-+-+-
+ | |
+Board Created.
+```
+
+⚠ TIC2: Users know which player will make the first move
 ⚠ TIC2: Users know which player will make the first move
