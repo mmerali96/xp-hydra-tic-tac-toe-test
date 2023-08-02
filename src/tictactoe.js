@@ -18,7 +18,13 @@ class TicTacToe {
   }
 
   checkBoard() {
-    if (this.board[0][0] === this.board[1][0] && this.board[1][0] === this.board[2][0]) {
+    if (
+      this.board[0][0] != '' &&
+      this.board[1][0] != '' &&
+      this.board[2][0] != '' &&
+      this.board[0][0] === this.board[1][0] &&
+      this.board[1][0] === this.board[2][0]
+    ) {
       return this.board[0][0];
     }
     return 'X';
