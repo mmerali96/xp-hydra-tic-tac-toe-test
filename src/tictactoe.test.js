@@ -39,30 +39,37 @@ describe('tic tac toe tests', () => {
     expect(testLog.mock.calls).toContainEqual(['Game Board Creation...', EMPTY_GAME_BOARD, 'Board Created.', 'The game will start with player X']);
     testLog.mockRestore();
   });
-  describe('test the checkBoard function for vertical winners', () => {
-    beforeEact(() => {
+  describe('test the checkBoard function', () => {
+    beforeEach(() => {
       tictactoe.board = [
         ['', '', ''],
         ['', '', ''],
         ['', '', ''],
       ];
     });
-  });
-  it('should have a function called checkBoard()', () => {
-    tictactoe.checkBoard();
-  });
-  it('should return player X if it has a 3 marks in a row for each column', () => {
-    tictactoe.board[0][0] = 'X';
-    tictactoe.board[1][0] = 'X';
-    tictactoe.board[2][0] = 'X';
-    console.log(tictactoe.board);
-    expect(tictactoe.checkBoard()).toBe('X');
-  });
-  it('should return player O if it has a 3 marks in a row for each column', () => {
-    tictactoe.board[0][0] = 'O';
-    tictactoe.board[1][0] = 'O';
-    tictactoe.board[2][0] = 'O';
-    console.log(tictactoe.board);
-    expect(tictactoe.checkBoard()).toBe('O');
+    it('is defined', () => {
+      tictactoe.checkBoard();
+    });
+    it('should return player X if it has a 3 marks in a row for column 0', () => {
+      tictactoe.board[0][0] = 'X';
+      tictactoe.board[1][0] = 'X';
+      tictactoe.board[2][0] = 'X';
+      console.log(tictactoe.board);
+      expect(tictactoe.checkBoard()).toBe('X');
+    });
+    it('should return player O if it has a 3 marks in a row for column 0', () => {
+      tictactoe.board[0][0] = 'O';
+      tictactoe.board[1][0] = 'O';
+      tictactoe.board[2][0] = 'O';
+      console.log(tictactoe.board);
+      expect(tictactoe.checkBoard()).toBe('O');
+    });
+    it('should return player X if it has a 3 marks in a row for column 1', () => {
+      tictactoe.board[0][1] = 'X';
+      tictactoe.board[1][1] = 'X';
+      tictactoe.board[2][1] = 'X';
+      console.log(tictactoe.board);
+      expect(tictactoe.checkBoard()).toBe('X');
+    });
   });
 });
