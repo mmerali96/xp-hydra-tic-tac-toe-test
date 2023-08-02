@@ -68,6 +68,8 @@
       - ✅ check for player X
       - ✅ check player O
 
+    - 🚧 check for vertical winner in middle column
+    - ⚠ check for vertical winnner in last column
     - ⚠ if there is no winner, return false
 
   - ⚠ play() should loop through players until checkBoard() function returns winner
