@@ -27,4 +27,65 @@ Board Created.
 ```
 
 ⚠ TIC2: Users know which player will make the first move
-⚠ TIC2: Users know which player will make the first move
+
+- Acceptance Test: Under the gameboard, the following message appears
+
+```
+The game will start with player X
+```
+
+⚠ TIC3: Player can win with vertical line
+
+- Acceptance test:
+
+```
+Game Board Creation...
+ |X|O
+-+-+-
+ |X|O
+-+-+-
+ |X|
+PLAYER X WON!
+```
+
+⚠ TIC4: Player can win with horizontal line
+
+- Acceptance test:
+
+```
+Game Board Creation...
+O|O|O
+-+-+-
+ |X|
+-+-+-
+ |X|
+PLAYER O WON!
+```
+
+⚠ TIC5: Player can win with diagonal line
+
+- Acceptance test:
+
+```
+Game Board Creation...
+X|O|O
+-+-+-
+ |X|
+-+-+-
+ | |X
+ PLAYER X WON!
+```
+
+⚠ TIC6: No winner. Game ends in a draw.
+
+- Acceptance test:
+
+```
+Game Board Creation...
+X|O|X
+-+-+-
+O|O|X
+-+-+-
+X|X|O
+GAME ENDS WITH A DRAW!
+```
