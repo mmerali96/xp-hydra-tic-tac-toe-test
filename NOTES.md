@@ -1,8 +1,8 @@
-# Awesome repo
+# Notes
 
 ## Legend
 - ⚠ TODO
 - 🚧 IN PROGRESS
 - ✅ DONE
 
-## Backlog
+## Plans
