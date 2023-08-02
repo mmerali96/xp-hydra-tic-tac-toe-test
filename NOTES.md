@@ -43,7 +43,9 @@
   - ✅ `<empty gameboard>`
   - ✅ Board Created.
 
-- ⚠ DEBT2: Create gameboard function to build the gameboard dynamically
+- 🚧 TIC2: Users know which player will make the first move
+
+  - 🚧 print that game will start with player X
 
 - ⚠ TODO
 - 🚧 IN PROGRESS
