@@ -2,6 +2,5 @@
 
 - ✅ DEBT1: Remove boilerplace code
 - ⚠ DEBT2: Create gameboard function to build the gameboard dynamically
-- ⚠ Use constants for commonly used strings
-- ⚠ TODO
-- ⚠ TODO
+- ⚠ DEBT3: Use constants for commonly used strings
+- ⚠ DEBT4: Refactor to use OOP
