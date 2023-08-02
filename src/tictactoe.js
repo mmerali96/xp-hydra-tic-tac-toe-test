@@ -46,7 +46,7 @@ class TicTacToe {
       return this.board[0][2];
     }
 
-    return 'X';
+    return false;
   }
 }
 

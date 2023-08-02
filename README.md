@@ -34,7 +34,7 @@ Board Created.
 The game will start with player X
 ```
 
-🚧 TIC3: Player can win with vertical line
+✅ TIC3: Player can win with vertical line
 
 - Acceptance test:
 
