@@ -1,4 +1,4 @@
-const hello = require('./hello');
+const hello = require('./tictactoe');
 
 //DEBT1
 describe('hello', () => {
@@ -6,5 +6,3 @@ describe('hello', () => {
     expect(hello()).toBe('hello');
   });
 });
-
-d;
