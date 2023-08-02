@@ -25,6 +25,12 @@
   - ✅ create print function that converts empty array into string with empty gameboard
     - ✅ Remove old function (non oop) and test
 - ✅ create play function that starts the game execution
+- 🚧 play() function should output messages and gameboard
+
+  - 🚧 Game Board Creation...
+  - ⚠ `<empty gameboard>`
+  - ⚠ Board Created.
+
 - ⚠ DEBT2: Create gameboard function to build the gameboard dynamically
 
 - ⚠ TODO

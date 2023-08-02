@@ -28,7 +28,7 @@ describe('tic tac toe tests', () => {
     tictactoe.play();
 
     expect(testLog).toHaveBeenCalled();
-
+    expect(testLog.mock.calls).toContainEqual(['Game Board Creation...']);
     testLog.mockRestore();
   });
 });
