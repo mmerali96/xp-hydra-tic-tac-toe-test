@@ -3,4 +3,6 @@ function hello() {
   return 'hello';
 }
 
-module.exports = hello;
+function tictactoe() {}
+
+module.exports = { hello, tictactoe };

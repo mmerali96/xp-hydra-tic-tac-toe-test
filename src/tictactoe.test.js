@@ -1,4 +1,4 @@
-const hello = require('./tictactoe');
+const { hello, tictactoe } = require('./tictactoe');
 
 //DEBT1
 describe('hello', () => {
