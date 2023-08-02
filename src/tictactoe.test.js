@@ -85,5 +85,12 @@ describe('tic tac toe tests', () => {
 
       expect(tictactoe.checkBoard()).toBe('X');
     });
+    it('should return player X if it has a 3 marks in a row for column 2', () => {
+      tictactoe.board[0][2] = 'O';
+      tictactoe.board[1][2] = 'O';
+      tictactoe.board[2][2] = 'O';
+
+      expect(tictactoe.checkBoard()).toBe('O');
+    });
   });
 });
