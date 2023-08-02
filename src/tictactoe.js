@@ -9,4 +9,6 @@ Game Board Creation...
 Board Created.`;
 }
 
-module.exports = { tictactoe };
+class TicTacToe {}
+
+module.exports = { tictactoe, TicTacToe };
