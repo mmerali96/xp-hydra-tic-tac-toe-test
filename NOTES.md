@@ -51,7 +51,7 @@
 - 🚧 TIC3: Player can win with vertical line
 
   - 🚧 Create function to check if board has vertical line winner
-    - 🚧 define function checkBoard() in TicTacToe class
+    - ✅ define function checkBoard() in TicTacToe class
     - ⚠ check if each vertical line in checkBoard() has same player symbol and return the player.
     - ⚠ if there is no winner, return false
   - ⚠ play() should loop through players until checkBoard() function returns winner

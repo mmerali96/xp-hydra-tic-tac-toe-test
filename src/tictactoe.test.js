@@ -35,4 +35,7 @@ describe('tic tac toe tests', () => {
     expect(testLog.mock.calls).toContainEqual(['Game Board Creation...', EMPTY_GAME_BOARD, 'Board Created.', 'The game will start with player X']);
     testLog.mockRestore();
   });
+  it('should have a function called checkBoard()', () => {
+    tictactoe.checkBoard();
+  });
 });
