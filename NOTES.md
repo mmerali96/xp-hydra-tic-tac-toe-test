@@ -24,7 +24,7 @@
   - ✅ init class with empty 2d array with 3 columns, [[],[],[]]
   - ✅ create print function that converts empty array into string with empty gameboard
     - ✅ Remove old function (non oop) and test
-- 🚧 create play function that starts the game execution
+- ✅ create play function that starts the game execution
 - ⚠ DEBT2: Create gameboard function to build the gameboard dynamically
 
 - ⚠ TODO

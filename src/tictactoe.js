@@ -9,6 +9,7 @@ class TicTacToe {
  | |
 `;
   }
+  play() {}
 }
 
 module.exports = { TicTacToe };

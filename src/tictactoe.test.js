@@ -18,7 +18,7 @@ describe('tic tac toe tests', () => {
  | |
 `);
   });
-  it('defines play() function that will start the game with the initial message', () => {
+  it('defines play() function that will start the game', () => {
     var tictactoe = new TicTacToe();
     tictactoe.play();
   });
