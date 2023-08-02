@@ -6,3 +6,9 @@ describe('hello', () => {
     expect(hello()).toBe('hello');
   });
 });
+
+describe('tic tac toe tests', () => {
+  it('should have a function called tictactoe', () => {
+    tictactoe();
+  });
+});
