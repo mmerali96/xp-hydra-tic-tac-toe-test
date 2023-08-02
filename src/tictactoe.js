@@ -10,7 +10,7 @@ class TicTacToe {
 `;
   }
   play() {
-    console.log('Game Board Creation...', this.getBoard(), 'Board Created.');
+    console.log('Game Board Creation...', this.getBoard(), 'Board Created.', 'The game will start with player X');
   }
 }
 

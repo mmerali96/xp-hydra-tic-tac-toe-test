@@ -43,9 +43,9 @@
   - ✅ `<empty gameboard>`
   - ✅ Board Created.
 
-- 🚧 TIC2: Users know which player will make the first move
+- ✅ TIC2: Users know which player will make the first move
 
-  - 🚧 print that game will start with player X
+  - ✅ print that game will start with player X
 
 - ⚠ TODO
 - 🚧 IN PROGRESS

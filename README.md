@@ -26,7 +26,7 @@ Game Board Creation...
 Board Created.
 ```
 
-🚧 TIC2: Users know which player will make the first move
+✅ TIC2: Users know which player will make the first move
 
 - Acceptance Test: Under the gameboard, the following message appears
 
