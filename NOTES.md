@@ -47,7 +47,7 @@
 
   - ✅ print that game will start with player X
 
-- 🚧 DEBT5: Refactor test cases to use same TicTacToe class instance
+- ✅ DEBT5: Refactor test cases to use same TicTacToe class instance
 
 - ⚠ TODO
 - 🚧 IN PROGRESS
