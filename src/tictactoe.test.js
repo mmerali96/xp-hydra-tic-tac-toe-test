@@ -1,4 +1,4 @@
-const { tictactoe, TicTacToe } = require('./tictactoe');
+const { TicTacToe } = require('./tictactoe');
 
 const EMPTY_GAME_BOARD = `
  | |
@@ -7,6 +7,7 @@ const EMPTY_GAME_BOARD = `
 -+-+-
  | |
 `;
+
 describe('tic tac toe tests', () => {
   it('should create an object for the tictactoe game', () => {
     var tictactoe = new TicTacToe();
@@ -17,13 +18,7 @@ describe('tic tac toe tests', () => {
   });
   it('should return the 2d array as a string to represent the gameboard', () => {
     var tictactoe = new TicTacToe();
-    expect(tictactoe.getBoard()).toBe(`
- | |
--+-+-
- | |
--+-+-
- | |
-`);
+    expect(tictactoe.getBoard()).toBe(EMPTY_GAME_BOARD);
   });
   it('defines play() function that will start the game', () => {
     var tictactoe = new TicTacToe();
@@ -35,7 +30,7 @@ describe('tic tac toe tests', () => {
     tictactoe.play();
 
     expect(testLog).toHaveBeenCalled();
-    expect(testLog.mock.calls).toContainEqual(['Game Board Creation...']);
+    expect(testLog.mock.calls).toContainEqual(['Game Board Creation...', EMPTY_GAME_BOARD]);
     testLog.mockRestore();
   });
 });
