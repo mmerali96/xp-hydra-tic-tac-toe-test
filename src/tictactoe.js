@@ -10,7 +10,7 @@ class TicTacToe {
 `;
   }
   play() {
-    console.log();
+    console.log('Game Board Creation...');
   }
 }
 

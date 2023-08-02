@@ -25,9 +25,10 @@
   - ✅ create print function that converts empty array into string with empty gameboard
     - ✅ Remove old function (non oop) and test
 - ✅ create play function that starts the game execution
+- 🚧 DEBT3: Use constants for commonly used strings
 - 🚧 play() function should output messages and gameboard
 
-  - 🚧 Game Board Creation...
+  - ✅ Game Board Creation...
   - ⚠ `<empty gameboard>`
   - ⚠ Board Created.
 

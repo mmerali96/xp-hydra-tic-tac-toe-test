@@ -1,5 +1,12 @@
 const { tictactoe, TicTacToe } = require('./tictactoe');
 
+const EMPTY_GAME_BOARD = `
+ | |
+-+-+-
+ | |
+-+-+-
+ | |
+`;
 describe('tic tac toe tests', () => {
   it('should create an object for the tictactoe game', () => {
     var tictactoe = new TicTacToe();
