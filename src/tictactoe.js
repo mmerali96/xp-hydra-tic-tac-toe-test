@@ -9,6 +9,8 @@ Game Board Creation...
 Board Created.`;
 }
 
-class TicTacToe {}
+class TicTacToe {
+  board = [[], [], []];
+}
 
 module.exports = { tictactoe, TicTacToe };
