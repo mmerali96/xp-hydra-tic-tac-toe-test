@@ -34,6 +34,17 @@
 
 - ⚠ DEBT2: Create gameboard function to build the gameboard dynamically
 
+# Pomodoro 3: Mehdi Merali - 2:57 - 3:27
+
+- 🚧 DEBT3: Use constants for commonly used strings
+- 🚧 play() function should output messages and gameboard
+
+  - ✅ Game Board Creation...
+  - 🚧 `<empty gameboard>`
+  - ⚠ Board Created.
+
+- ⚠ DEBT2: Create gameboard function to build the gameboard dynamically
+
 - ⚠ TODO
 - 🚧 IN PROGRESS
 - ✅ DONE
